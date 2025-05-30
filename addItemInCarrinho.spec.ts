@@ -12,10 +12,12 @@ await page.click('[data-test="login-button"]');
  })
 await page.locator('[data-test="add-to-cart-sauce-labs-bike-light"]').click();
 
+//Cria uma variável para receber o objeto e logo após verifica se está visível e acrescentou +1
 const contador = page.locator('.shopping_cart_badge');
 await expect(contador).toBeVisible();
 await expect(contador).toHaveText('1');
 
+//Pausar durante a execução do programa
 await page.pause();
 }
 )
