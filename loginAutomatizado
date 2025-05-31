@@ -1,3 +1,6 @@
+// REQUISITO US001-1 : A página com os itens a venda é apresentada após o login 
+// ALUNO: Caio Henrique 
+
 import { test, expect } from '@playwright/test';
 
 // Login automático antes de cada teste
