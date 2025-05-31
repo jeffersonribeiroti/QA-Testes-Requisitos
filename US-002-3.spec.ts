@@ -27,8 +27,6 @@ test('Ao clicar no produto, uma tela com as informações do produto deve ser ap
 
   // Valida se o nome do produto está correto na página
   await expect(page.locator('.inventory_details_name')).toHaveText('Sauce Labs Bike Light');
-
-  await page.pause();
 });
 
 // ======================================================= Caminho Triste =========================================================
@@ -56,6 +54,4 @@ test('Ao clicar em um item (como o Sauce Labs Backpack), a tela de descrição a
 
   // Verifica se o texto "carry.allTheThings()" está visível na descrição do produto
   await expect(page.locator('[data-test="inventory-item-desc"]')).toContainText('carry.allTheThings()');
-
-  await page.pause();
 });
