@@ -1,4 +1,4 @@
-# 🏆 Testes Automatizados com Playwright - Swagger Labs | Cesar School
+# 🏆 Testes Automatizados com Playwright - Swag Labs | Cesar School
 
 Este repositório contém testes automatizados para a página do Swagger Labs, utilizando **Playwright** e **TypeScript**.
 
@@ -8,6 +8,3 @@ Validar a funcionalidade e experiência do usuário na página do Swagger Labs, 
 ## 🚀 Tecnologias Utilizadas
 - [Playwright](https://playwright.dev/) - Automação de testes
 - [TypeScript](https://www.typescriptlang.org/) - Linguagem de programação
-
-## 📂 Estrutura do Projeto
-=============================//
