@@ -1,4 +1,3 @@
-
 // APLICAÇÃO: SauceDemo SwagLabs  
 // REQUISITO US001-3 : Ao clicar no produto, uma tela com as informações do produto deve ser apresentada  
 // ALUNO: Jefferson Ribeiro dos Santos - FICR ADS  
