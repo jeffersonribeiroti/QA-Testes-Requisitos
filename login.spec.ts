@@ -1,3 +1,7 @@
+// REQUISITO US001-1 : A página com os itens a venda é apresentada após o login 
+// ALUNO: Caio Henrique 
+
+
 import { test, expect } from '@playwright/test';
 
 
@@ -16,7 +20,7 @@ test('Login com credenciais válidas leva à página de produtos', async ({ page
 });
 
 
-// CAMINHOS DE ERRO (simulando falhas)
+// CAMINHO DOS ERROS
 
 // Usuário e senha inválidos
 test('Login com usuário ou senha inválidos deve exibir mensagem de erro', async ({ page }) => {
