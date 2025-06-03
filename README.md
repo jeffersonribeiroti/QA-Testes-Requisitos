@@ -8,3 +8,10 @@ Validar a funcionalidade e experiência do usuário na página do Swagger Labs, 
 ## 🚀 Tecnologias Utilizadas
 - [Playwright](https://playwright.dev/) - Automação de testes
 - [TypeScript](https://www.typescriptlang.org/) - Linguagem de programação
+
+## Squad 1 
+- Wenderson Artur Da Silva
+- Jefferson Ribeiro Dos Santos
+- Caio Henrique Santana Do Nascimento
+- Ryan Vitor Souza Dos Santos
+- Kayki Guilherme Lemos Pereira
