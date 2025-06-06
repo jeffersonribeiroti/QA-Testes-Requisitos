@@ -29,5 +29,7 @@ test(' Uma tela com os dados para confirmação deve ser apresentada ao concluir
   await page.fill('[data-test="postalCode"]', '54545590');
   await page.click('[data-test="continue"]');
   await expect(page).toHaveURL('https://www.saucedemo.com/checkout-step-two.html');
+  await page.click('[data-test="finish"]');
+  await expect(page).toHaveURL('https://www.saucedemo.com/checkout-complete.html');
   await page.pause();
 });
