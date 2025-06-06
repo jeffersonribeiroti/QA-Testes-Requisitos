@@ -20,11 +20,11 @@ test('Informações do comprador para efetuar pagamento', async ({ page }) => {
 
   // Preenche dados válidos
   const nome = 'Caio';
-  const ultimonome = 'Henrique';
+  const sobrenome = 'Henrique';
   const CEP = '5321034';
 
   await page.fill('[data-test="firstName"]', nome);
-  await page.fill('[data-test="lastName"]', ultimonome);
+  await page.fill('[data-test="lastName"]', sobrenome);
   await page.fill('[data-test="postalCode"]', CEP);
 
   await page.click('[data-test="continue"]');
